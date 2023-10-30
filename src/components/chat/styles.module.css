@@ -1,0 +1,146 @@
+.ChatStyling{
+    width: 30vw;
+    height: 30vw;
+    background-color: rgba(230, 230, 230, 0.527);
+    position: relative;
+    top: 0.5vw;
+    left: 35vw;
+    border: none;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.TitlePrivateMassageStyling{
+    position: relative;
+    left: 12vw;
+    top: 1vw;
+    display: inline-block;
+    /* text-shadow: 0vw 0vw 0.5vw rgb(0, 224, 254); */
+}
+
+.MassageStyling{
+    width: 28.5vw;
+    height: auto;
+    position: relative;
+    left: 1vw;
+    top: 3vw;
+    background-color: rgba(255, 255, 255, 0.073);
+    margin-bottom: 0.2vw;
+    border: 0.1vw solid rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.InputMassageStyling{
+    height: 3vw;
+    width: 28vw;
+    color: rgb(0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.527);
+    border: none;
+    position: relative;
+    top: -12vw;
+    border-radius: 15px;
+    padding-left: 0.5vw;
+    word-wrap: break-word;
+}
+
+.ButtonOkMassageStyling{
+    border-radius: 1vw;
+    width: 3.1vw;
+    height: 3vw;
+    position: relative;
+    top: -15.05vw;
+    left: 12.7vw;
+    background-color: rgb(0, 0, 0);
+    border: 0.1vw solid rgb(0, 234, 255);
+    z-index: 1;
+}
+
+.ButtonOkMassageStyling1{
+    border-radius: 1vw;
+    width: 3.1vw;
+    height: 3vw;
+    position: relative;
+    top: -15.05vw;
+    left: 12.7vw;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.1vw solid rgb(255, 0, 72);
+}
+
+.ButtonOkMassageStyling1:hover{
+    background-color: rgba(255, 0, 123, 0.127);
+}
+
+.StylingTitle{
+    color: white;
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    top: -0.25vw;
+    left: 0.1vw;
+}
+
+.ButtonOkMassageStyling:hover{
+    cursor: pointer;
+    background-color: rgb(0, 41, 44);
+}
+
+.ButtonOkMassageStyling:active{
+    background-color: rgb(0, 86, 101);
+}
+
+.ButtonDeleteFullStyling{
+    width: 10vw;
+    color: rgba(255, 255, 255, 0.275);
+    background-color: rgba(255, 137, 184, 0);
+    position: relative;
+    top: -14vw;
+}
+
+.ButtonDeleteFullStyling:hover{
+    cursor: pointer;
+    box-shadow: 0vw 0vw 0.1vw 0.1vw black;
+    color: white;
+}
+
+.ButtonDeleteFullStyling:active{
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-0.05vw);
+}
+
+.DeleteMassageStyling{
+    background-color: rgb(0, 0, 0);
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    right: 0.1vw;
+    top: 0.05vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeleteMassageStyling:hover{
+    cursor: pointer;
+    /* box-shadow: 0vw 0vw 0.8vw rgb(38, 255, 0); */
+}
+
+.DeleteMassageStyling:active{
+    /* box-shadow: 0vw 0vw 0.8vw rgb(255, 0, 0); */
+}
+
+.RegistrationTitleStyling{
+    font-size: 1.45vw;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    position: relative;
+    top: -0.3vw;
+    z-index: 1;
+}
+
+.Background {
+    width: 2515px;
+    height: 1246px;
+    background-image: url("../api/BG2.jpg");
+    background-size: cover;
+}

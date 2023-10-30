@@ -1,0 +1,67 @@
+.General {
+    height: 1246px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../api/BG2.jpg");
+    background-size: cover;
+}
+
+.greeting {
+    display: flex;
+    color: aliceblue;
+    width: 300px;
+}
+
+.exit {
+    display: flex;
+    height: 36px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.name {
+    display: flex;
+    color: aliceblue;
+    width: 150px;
+}
+
+.input {
+    display: flex;
+    height: 33px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.459);
+    border: none;
+    color: aliceblue;
+}
+
+.save {
+    display: flex;
+    height: 36px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.welcome {
+    display: flex;
+    color: aliceblue;
+    width: 2500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}

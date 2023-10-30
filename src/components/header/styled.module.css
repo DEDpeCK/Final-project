@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(70, 85, 75);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}

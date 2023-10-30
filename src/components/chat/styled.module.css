@@ -1,0 +1,77 @@
+
+.container {
+    display: flex;
+    width: 2515px;
+    height: 1246px;
+    flex-direction: column;
+    background-image: url("../api/BG2.jpg");
+    background-size: cover;
+}
+
+.write_comment {
+    display: flex;
+    height: 25px;
+    width: 200px;
+    
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    height: 33px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.459);
+    border: none;
+    color: aliceblue;
+}
+
+.send_comment {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.delete_comment {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.not_authorized {
+    display: flex;
+    color: aliceblue;
+    width: 2450px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 100px 0px;
+}
+
+.chat {
+    display: flex;
+    width: 1450px;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 100px 0px 300px 470px;
+    background-color: rgba(230, 230, 230, 0.527);
+    border-radius: 20px;
+}
+.message {
+    font-size: medium;
+}
+.button {
+    display: flex;
+    width: 2450px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 100px 0px;
+}

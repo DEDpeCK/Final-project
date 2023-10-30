@@ -1,0 +1,91 @@
+.General {
+    height: 1246px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../api/BG2.jpg");
+    background-size: cover;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 2450px;
+    padding-top: 80px;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid rgb(233, 225, 225);
+    background-color: rgba(0, 255, 255, 0);
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1246px;
+    flex-direction: column;
+    width: 2450px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    width: 1450px;
+    height: 100px;
+    background-color: rgba(230, 230, 230, 0.527);
+    border-radius: 20px;
+}
+
+.location {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.temp {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.discription {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    width: 1450px;
+    align-items: center;
+    height: 100px;
+    margin: 100px;
+    background-color: rgba(230, 230, 230, 0.527);
+    border-radius: 20px;
+}
+
+.feels{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+
+}
+
+.humidity {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.wind{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.textStyle{
+    
+}
